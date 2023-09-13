@@ -1,0 +1,113 @@
+/****************** reset ******************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/***************** general *****************/
+@font-face {
+    font-family:'red-hat-display';
+    src: url(./Red_Hat_Display/RedHatDisplay-Italic-VariableFont_wght.ttf);
+    font-size: 900;
+}
+@font-face {
+    font-family:'red-hat-display';
+    src: url(./Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+    font-size: 700;
+}
+@font-face {
+    font-family: 'red-hat-display';
+    src: url(./Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+    font-size: 500;
+}
+
+.root {
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+}
+
+body {
+    background-color: rgb(225 235 247);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'red-hat-display';
+}
+
+h1 {
+    color: rgb(7, 7, 44);
+    font-size: 1.5em;
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+}
+h2 {
+    color: rgb(7, 7, 44);
+    font-size: 1em;
+}
+
+/***************** mine ********************/
+
+ main {
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.box {
+    background-color: #fff;
+    width: 30%;
+    padding: 0%;
+    margin-bottom: 1.2em;
+    border-radius: 0.800em;
+    box-shadow: 0 3px 9px 2px gray;
+}
+.box img {
+    border-top-right-radius: 0.750em;
+    border-top-left-radius: 0.750em;
+    border-bottom-right-radius: 0em;
+    border-bottom-left-radius: 0em 
+}
+
+
+.box-2 {
+    background-color: rgb(243 242 242 / 86%);
+    width: 80%;
+    padding: 3%;
+    margin-bottom: 1.5em;
+    display: inline-flex;
+    border-radius: 0.800em;
+}
+.box p {
+    font-family:'red-hat-display';
+    src: url(./Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+    font-size: 700;   
+    color: gray;
+    font-size: 1em;
+}
+
+.box button {
+    background-color: rgb(15, 41, 185);
+    width: 80%;
+    padding: 2.9%;
+    margin-bottom: 1.5em;
+    border-radius: 0.800em;
+    font-size: 1.3em;
+}
+
+
+
+/************* media query *****************/
